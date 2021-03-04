@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1165px;
+    margin: 0 auto;
+}
+.name {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.avatar {
+    width: 169px;
+    height: 167px;
+    background-color: #000;
+    border-radius: 100%;
+    background-image: url('../img/image2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 75px;
+    top: 3px
+}
+.info {
+    margin-top: 4px;
+}
+h2 {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.menu {
+    list-style-type: none;
+    margin-top: 12px;
+}
+a {
+    text-decoration: none;
+}
